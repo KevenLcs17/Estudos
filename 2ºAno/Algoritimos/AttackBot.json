@@ -1,0 +1,177 @@
+{
+  "AttackBot": [
+    {
+      "attackTable": [
+        {
+          "description": "[Adjacent] 3+ Creatures: Exori Gran, absolute (0%-100%)",
+          "mana": 1,
+          "orMore": true,
+          "monsters": [
+            "amazon"
+          ],
+          "category": 5,
+          "spell": "Exori Gran",
+          "pattern": 1,
+          "creatures": "amazon",
+          "tooltip": "amazon",
+          "patternCategory": 4,
+          "enabled": true,
+          "cooldown": 6,
+          "maxHp": 100,
+          "count": 3,
+          "minHp": 0,
+          "itemId": 0
+        },
+        {
+          "description": "[5 Sqm] 1+ Any Creatures: Exori Hur, targeted (0%-100%)",
+          "mana": 1,
+          "orMore": true,
+          "monsters": true,
+          "category": 1,
+          "spell": "Exori Hur",
+          "pattern": 5,
+          "creatures": "*",
+          "tooltip": false,
+          "patternCategory": 1,
+          "enabled": true,
+          "cooldown": 2,
+          "maxHp": 100,
+          "count": 1,
+          "minHp": 0,
+          "itemId": 0
+        },
+        {
+          "description": "[1 Sqm Range] 3+ Creatures: Utito  Tempo, empowerment (40%-100%)",
+          "mana": 60,
+          "orMore": true,
+          "monsters": [
+            "demon"
+          ],
+          "category": 4,
+          "spell": "Utito  Tempo",
+          "pattern": 1,
+          "creatures": "demon",
+          "tooltip": "demon",
+          "patternCategory": 3,
+          "enabled": true,
+          "cooldown": 30,
+          "maxHp": 100,
+          "count": 3,
+          "minHp": 40,
+          "itemId": 0
+        },
+        {
+          "description": "[Ball] 10+ Creatures: rune 3161, area (0%-100%)",
+          "mana": 1,
+          "orMore": true,
+          "monsters": [
+            "stonerefiner"
+          ],
+          "category": 2,
+          "spell": "spell name",
+          "pattern": 3,
+          "creatures": "stonerefiner",
+          "tooltip": "stonerefiner",
+          "patternCategory": 2,
+          "enabled": true,
+          "cooldown": 12,
+          "maxHp": 100,
+          "count": 10,
+          "minHp": 0,
+          "itemId": 3161
+        },
+        {
+          "description": "[Ball] 3+ Creatures: rune 3202, area (15%-90%)",
+          "mana": 15,
+          "orMore": true,
+          "monsters": [
+            "dragon"
+          ],
+          "category": 2,
+          "spell": "spell name",
+          "pattern": 3,
+          "creatures": "dragon",
+          "tooltip": "dragon",
+          "patternCategory": 2,
+          "enabled": true,
+          "cooldown": 2,
+          "maxHp": 90,
+          "count": 3,
+          "minHp": 15,
+          "itemId": 3202
+        },
+        {
+          "description": "[6 Sqm Range] 10 Creatures: rune 3155, targeted (50%-100%)",
+          "mana": 30,
+          "orMore": false,
+          "monsters": [
+            "dragon lord"
+          ],
+          "category": 3,
+          "spell": "spell name",
+          "pattern": 6,
+          "creatures": "dragon lord",
+          "tooltip": "dragon lord",
+          "patternCategory": 3,
+          "enabled": true,
+          "cooldown": 8,
+          "maxHp": 100,
+          "count": 10,
+          "minHp": 50,
+          "itemId": 3155
+        },
+        {
+          "description": "[3 Sqm Range] 2 Any Creatures: rune 3198, targeted (0%-50%)",
+          "mana": 30,
+          "orMore": false,
+          "monsters": true,
+          "category": 3,
+          "spell": "spell name",
+          "pattern": 3,
+          "creatures": "*",
+          "tooltip": false,
+          "patternCategory": 3,
+          "enabled": true,
+          "cooldown": 8,
+          "maxHp": 50,
+          "count": 2,
+          "minHp": 0,
+          "itemId": 3198
+        },
+        {
+          "description": "[Large Beam] 3+ Creatures: Exevo Gran Vis Lux, absolute (20%-80%)",
+          "mana": 5,
+          "orMore": true,
+          "monsters": [
+            "orc berserker"
+          ],
+          "category": 5,
+          "spell": "Exevo Gran Vis Lux",
+          "pattern": 7,
+          "creatures": "orc berserker",
+          "tooltip": "orc berserker",
+          "patternCategory": 4,
+          "enabled": true,
+          "cooldown": 12,
+          "maxHp": 80,
+          "count": 3,
+          "minHp": 20,
+          "itemId": 0
+        }
+      ],
+      "Visible": true,
+      "AntiRsRange": 5,
+      "BlackListSafe": false,
+      "PvpSafe": true,
+      "KillsAmount": 1,
+      "Kills": false,
+      "pvpMode": false,
+      "Cooldown": true,
+      "Rotate": false,
+      "enabled": true,
+      "name": "Macada do 2º Ano",
+      "ignoreMana": true
+    },
+  ],
+  "currentBotProfile": 1
+}
