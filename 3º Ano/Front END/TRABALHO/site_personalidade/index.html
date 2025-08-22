@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>William Shakespeare</title>
+    
+    <!-- Bom, o que eu mais tive facilidade, e de escolher o autor, e sim, foi o William Shakespeare. Dificuldade: -->
+
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+    
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .menu-link {
+            @apply block py-3 px-8 rounded-full text-white font-bold text-xl transition duration-300 ease-in-out transform hover:scale-105 hover:bg-red-800 shadow-lg;
+            background: linear-gradient(145deg, #8B0000, #B22222);
+        }
+        .menu-link:hover {
+            background: linear-gradient(145deg, #B22222, #8B0000);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200 flex flex-col min-h-screen">
+    <div class="container mx-auto p-8 bg-stone-900 rounded-xl shadow-2xl my-10 flex-grow border border-stone-700">
+        <header class="text-center mb-12">
+            <h1 class="text-6xl font-extrabold text-amber-300 mb-4 tracking-wide flex items-center justify-center">
+                William Shakespeare: O Grande Poeta 
+                <span class="ml-4 text-5xl text-red-600">&#x1F4D6;</span> <!-- Ícone de livro -->
+            </h1>
+            <hr class="my-8 border-t-4 border-amber-500 w-1/3 mx-auto rounded-full">
+        </header>
+
+        <div class="flex flex-col md:flex-row items-center md:space-x-12 mb-16 group">
+            <div class="md:w-1/2 mb-10 md:mb-0 transform transition-transform duration-500 group-hover:scale-105 group-hover:shadow-xl relative">
+                <!-- Imagem principal com responsividade e estilo -->
+                <picture>
+                    <source media="(max-width: 350px)" srcset="Shakespeare-retrato-min-e100.jpg" type="image/jpeg">
+
+                    <source media="(max-width: 500px)" srcset="Shakespeare-retrato-min-e300" type="image/jpeg">
+
+                    <img src="Shakespeare-retrato-min-e1534876787846.jpg" class="rounded-xl shadow-lg w-full h-auto object-cover border-4 border-amber-500">
+
+                </picture>
+
+                <div class="absolute inset-0 rounded-xl border-4 border-transparent group-hover:border-amber-300 transition-all duration-500 pointer-events-none"></div>
+            </div>
+
+            <div class="md:w-1/2 text-center md:text-left bg-stone-800 p-8 rounded-lg shadow-xl border border-stone-700">
+                <h2 class="text-4xl font-bold text-amber-400 mb-6">Um legado duradouro</h2>
+                <p class="text-xl leading-relaxed mb-6 text-gray-300">
+
+                    <strong>William Shakespeare</strong> foi um poeta, dramaturgo e ator inglês. Foi tido como o <span class="font-extrabold underline text-red-500">maior</span> escritor do idioma inglês e considerado por muitos o maior dramaturgo da história. É chamado frequentemente de poeta nacional da Inglaterra e de "Bardo de Avon" (ou simplesmente The Bard, "O Bardo").
+                </p>
+                
+                <p class="text-xl leading-relaxed text-gray-300">
+                    Este Mini-Site celebra algumas de suas maiores histórias e conquistas. Navegue pelas seções para aprender mais!
+                </p>
+            </div>
+        </div>
+
+        <hr class="my-12 border-t-4 border-amber-500 w-1/3 mx-auto rounded-full">
+
+        <h2 class="text-4xl font-bold text-center text-amber-400 mb-8">Navegue pelas Obras</h2>
+        <nav class="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-8">
+            <a href="biografia/biografia.html" class="menu-link">Biografia Completa</a>
+            <a href="cronologia/cronologia.html" class="menu-link">Primeiros Livros</a>
+            <a href="galeria/galeria.html" class="menu-link">Galeria de Retratos</a>
+        </nav>
+    </div>
+
+    <footer class="bg-gray-950 text-gray-400 text-center p-6 mt-12 border-t border-stone-700">
+        <p>&copy; 2025 William Shakespeare Fan Site. Todos os direitos reservados.</p>
+        <p class="text-sm mt-2">Criado com paixão pela literatura.</p>
+    </footer>
+</body>
+</html>

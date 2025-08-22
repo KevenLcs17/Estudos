@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria De William</title>
+    <link rel="shortcut icon" href="../favicon-16x16.png" type="image/x-icon">
+    <!-- Tailwind CSS CDN para estilização -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Estilo personalizado para a fonte Inter */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Estilo para o botão de voltar */
+        .back-button {
+            @apply inline-block py-3 px-8 rounded-full text-white font-bold text-xl transition duration-300 ease-in-out transform hover:scale-105 shadow-lg;
+            background: linear-gradient(145deg, #8B0000, #B22222); /* Gradiente para um visual mais rico */
+        }
+        .back-button:hover {
+            background: linear-gradient(145deg, #B22222, #8B0000);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200 p-4">
+    <div class="container mx-auto p-8 bg-stone-900 rounded-xl shadow-2xl my-10 border border-stone-700">
+        <h1 class="text-5xl font-extrabold text-amber-300 text-center mb-8 tracking-wide">Galeria De William Shakespeare</h1>
+        
+        <hr class="my-8 border-t-4 border-amber-500 w-1/2 mx-auto rounded-full">
+
+        <div class="flex justify-center mb-12">
+            
+            <img src="download.jpg" alt="Retrato principal de William Shakespeare" class="rounded-xl shadow-lg max-w-full h-auto border-4 border-amber-500">
+            <!-- Lembre-se de substituir o URL do placeholder pela sua imagem real, por exemplo: "download.jpg" -->
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-stone-800 p-6 rounded-lg shadow-xl flex flex-col items-center text-center border border-stone-700">
+                <img src="download (1).jpg" alt="Retrato de busto de William Shakespeare" class="rounded-lg shadow-sm mb-4 max-w-full h-auto border-2 border-stone-600">
+                
+                <p class="text-xl leading-relaxed text-gray-300">
+                    Este é um retrato de busto de William Shakespeare, focado no rosto e na parte superior do tronco. Ele apresenta cabelo castanho escuro, ondulado e de comprimento médio, uma barba e bigode escuros e bem aparados. Seus olhos são castanhos claros e ele tem uma expressão séria e direta.
+                </p>
+            </div>
+
+            <div class="bg-stone-800 p-6 rounded-lg shadow-xl flex flex-col items-center text-center border border-stone-700">
+                <img src="3.jpg" alt="Gravura em preto e branco de William Shakespeare" class="rounded-lg shadow-sm mb-4 max-w-full h-auto border-2 border-stone-600">
+                
+                <p class="text-xl leading-relaxed text-gray-300">
+                    Esta é uma gravura em preto e branco (ou sépia) de William Shakespeare, apresentando um estilo mais linear e detalhado.
+                </p>
+            </div>
+
+            <div class="bg-stone-800 p-6 rounded-lg shadow-xl flex flex-col items-center text-center border border-stone-700">
+                <img src="4.jpg" alt="Pintura a óleo de William Shakespeare com rufo branco" class="rounded-lg shadow-sm mb-4 max-w-full h-auto border-2 border-stone-600">
+                
+                <p class="text-xl leading-relaxed text-gray-300">
+                    Esta pintura a óleo apresenta Shakespeare com um fundo predominantemente escuro. Ele usa um rufo branco e detalhado, com dobras e texturas visíveis.
+                </p>
+            </div>
+
+            <div class="bg-stone-800 p-6 rounded-lg shadow-xl flex flex-col items-center text-center border border-stone-700">
+                <img src="5.jpg" alt="William Shakespeare em ambiente de estudo" class="rounded-lg shadow-sm mb-4 max-w-full h-auto border-2 border-stone-600">
+                
+                <p class="text-xl leading-relaxed text-gray-300">
+                    Esta imagem retrata Shakespeare em um ambiente de estudo ou escritório.
+                </p>
+            </div>
+
+            <div class="bg-stone-800 p-6 rounded-lg shadow-xl flex flex-col items-center text-center border border-stone-700">
+                <img src="6.jpg" alt="Pintura a óleo de William Shakespeare com detalhes de idade e ano" class="rounded-lg shadow-sm mb-4 max-w-full h-auto border-2 border-stone-600">
+                
+                <p class="text-xl leading-relaxed text-gray-300">
+                    Esta é uma pintura a óleo de Shakespeare com um fundo escuro e detalhes de texto no canto superior esquerdo que parecem indicar "AETATIS SVAE.47" (referindo-se à sua idade, 47 anos) e "A: 1611" (o ano de 1611).
+                </p>
+            </div>
+
+            <div class="bg-stone-800 p-6 rounded-lg shadow-xl flex flex-col items-center text-center border border-stone-700">
+                <img src="7.jpg" alt="Figura de cera de William Shakespeare com crânio" class="rounded-lg shadow-sm mb-4 max-w-full h-auto border-2 border-stone-600">
+               
+                <p class="text-xl leading-relaxed text-gray-300">
+                    A imagem mostra uma figura de cera de William Shakespeare em um museu. Ele está segurando um crânio humano em suas mãos, uma referência icônica à cena de Hamlet com o crânio de Yorick ("Alas, poor Yorick! I knew him, Horatio.").
+                </p>
+            </div>
+            <center></center>
+            <div class="bg-stone-800 p-6 rounded-lg shadow-xl flex flex-col items-center text-center border border-stone-700">
+                <img src="8.jpg" alt="Gravura de William Shakespeare com citação de Hamlet" class="rounded-lg shadow-sm mb-4 max-w-full h-auto border-2 border-stone-600">
+                
+                <p class="text-xl leading-relaxed text-gray-300">
+                    A imagem é uma gravura em preto e branco de William Shakespeare, apresentando o estilo de retrato associado a ele. O fundo texturizado e escuro inclui a famosa citação de sua peça "Hamlet": "SER OU NÃO SER, EIS A QUESTÃO", seguida por seu nome, "William Shakespeare".
+                </p>
+            </center>
+            </div>
+        </div>
+        
+        <div class="mt-12 text-center">
+            <a href="file:///C:/Users/Keven/Documents/Front%20END/TRABALHO/site_personalidade/index.html" target="_self" rel="external nofollow" class="back-button">
+                Voltar para a Página Principal
+            </a>
+        </div>
+    </div>
+</body>
+</html>
